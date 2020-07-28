@@ -286,7 +286,7 @@ align-items: center;
 /* **********************demo - section****************************** */
 
 .demo-container{
-  padding-top: 60px;
+  padding-top: 75px;
   background-image: url(./images/vintage-wallpaper.png);
   background-size: cover;
   color:rgba(255, 255, 255, 0.856);

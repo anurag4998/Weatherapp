@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Col, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Col, Form, FormGroup, Label, Input } from 'reactstrap';
 import JSONPretty from 'react-json-pretty';
 import 'react-json-pretty/themes/monikai.css';
 import { FiArrowRightCircle } from "react-icons/fi";
@@ -72,10 +72,10 @@ const Demo = (props) => {
 
                 <button className="col-4 col-md-2 submitbutton">Enter</button>
 
-                <a href="#" className="demo-more-features">
+                <div href="#" className="demo-more-features">
                     <h6>View Complete Documentation </h6>
                     <FiArrowRightCircle className="demo-more-features-icons" />
-                </a>
+                </div>
             </Form>
 
 

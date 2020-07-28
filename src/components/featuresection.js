@@ -6,7 +6,7 @@ import { IoMdPricetags, IoIosSpeedometer } from "react-icons/io";
 import { RiDownloadCloud2Line } from "react-icons/ri";
 const Features = () => {
     return (
-        <section className="feature-container">
+        <section className="feature-container" id="features" >
 
             <div className="container ">
 

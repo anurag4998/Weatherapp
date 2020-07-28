@@ -109,10 +109,10 @@ const Pricing = () => {
                         </div>
                     </div>
                 </div>
-                <a href="#" className="more-features">
+                <div className="more-features">
                     <h6>View More Details </h6>
                     <FiArrowRightCircle className="more-features-icons" />
-                </a>
+                </div>
             </div>
 
         </section>
