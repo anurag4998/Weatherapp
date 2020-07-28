@@ -32,7 +32,7 @@ const Navbarnav = (props) => {
                         <li className="nav-item"><a className="nav-link" href="#prices"> <h6>Pricing</h6></a></li>
                         <li className="nav-item"><a className="nav-link" href="#documentation"><h6>Documentation</h6></a></li>
                         <li className="nav-item"><a className="nav-link" href="#prices"> <h6>Sign Up</h6></a></li>
-                        <li className="nav-item"><a className="nav-link" href="#"> <h6>Contact</h6></a></li>
+                        <li className="nav-item"><a className="nav-link" href="#contact"> <h6>Contact</h6></a></li>
 
                     </ul>
                 </Collapse>

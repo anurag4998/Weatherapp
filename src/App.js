@@ -3,6 +3,7 @@ import Header from './components/header'
 import Features from './components/featuresection'
 import Pricing from './components/pricing'
 import Demo from './components/demo'
+import Contact from './components/contact'
 
 import './App.css';
 
@@ -23,7 +24,7 @@ class App extends React.Component {
         <Features />
         <Demo />
         <Pricing />
-
+        <Contact />
       </div>
     )
   }

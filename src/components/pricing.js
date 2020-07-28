@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FiArrowRightCircle } from "react-icons/fi";
+import { Button } from 'reactstrap';
 
 
 
@@ -24,7 +25,7 @@ const Pricing = () => {
                         <div className="Pricing-title">
                             <h4>Free</h4>
                             <p className="plan-price"> 0$ <span>/ month </span> </p>
-                            <a href="#">SIGN UP</a>
+                            <Button href="#">SIGN UP</Button>
                         </div>
                         <div className="Pricing-content">
                             <ul className="list-unstyled">
@@ -40,7 +41,7 @@ const Pricing = () => {
                         <div className="Pricing-title">
                             <h4>Developer</h4>
                             <p className="plan-price">29$ <span>/ month </span> </p>
-                            <a href="#">SIGN UP</a>
+                            <Button href="#">SIGN UP</Button>
 
                         </div>
                         <div className="Pricing-content">
@@ -58,7 +59,7 @@ const Pricing = () => {
                         <div className="Pricing-title">
                             <h4>Professional</h4>
                             <p className="plan-price">69$ <span>/ month </span> </p>
-                            <a href="#">SIGN UP</a>
+                            <Button href="#">SIGN UP</Button>
 
                         </div>
                         <div className="Pricing-content">
@@ -75,7 +76,7 @@ const Pricing = () => {
                         <div className="Pricing-title">
                             <h4>Business</h4>
                             <p className="plan-price">99$ <span>/ month </span> </p>
-                            <a href="#">SIGN UP</a>
+                            <Button href="#">SIGN UP</Button>
 
                         </div>
                         <div className="Pricing-content">
@@ -93,7 +94,7 @@ const Pricing = () => {
                         <div className="Pricing-title">
                             <h4>Enterprise</h4>
                             <p className="plan-price">  <span> Custom Prices</span> </p>
-                            <a href="#">Contact US</a>
+                            <Button href="#">Contact Us</Button>
 
                         </div>
                         <div className="Pricing-content">
