@@ -21,7 +21,7 @@ const Demo = (props) => {
         let input = e.target.location.value.trim()
         if (input) {
 
-            let url1 = 'http://api.weatherapi.com/v1/current.json?key=7b652cc06264447ba7174608202707&q=' + input
+            let url1 = 'https://api.weatherapi.com/v1/current.json?key=7b652cc06264447ba7174608202707&q=' + input
             fetch(url1, requestOptions)
                 .then(response => response.json())
                 .then((result) => {
