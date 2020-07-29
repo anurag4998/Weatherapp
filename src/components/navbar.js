@@ -3,6 +3,7 @@ import { WiDayStormShowers } from "react-icons/wi";
 import { Navbar, NavbarToggler, Collapse } from 'reactstrap';
 
 const Navbarnav = (props) => {
+    const [isOpen, setIsOpen] = useState(false);
     const [scroll, setScroll] = useState(1)
     useEffect(() => {
         document.addEventListener("scroll", () => {
@@ -11,10 +12,13 @@ const Navbarnav = (props) => {
                 setScroll(scrollCheck)
             }
         })
-    })
-    const [isOpen, setIsOpen] = useState(false);
 
-    const toggle = () => setIsOpen(!isOpen);
+
+    })
+    const toggle = () => {
+        setIsOpen(!isOpen)
+    };
+
 
     return (
 
@@ -22,7 +26,7 @@ const Navbarnav = (props) => {
             <div className={scroll ? "container navbarcontainer" : "container-fluid navbarcontainer-sticky"}>
 
                 <a href="#Header" className="Logodisplay">
-                    <WiDayStormShowers className=" icon" />
+                    <WiDayStormShowers className="icon" />
                     <div className="Logoname">.WeatherAPI</div>
                 </a>
                 <NavbarToggler onClick={toggle} className="navbar-dark" />
