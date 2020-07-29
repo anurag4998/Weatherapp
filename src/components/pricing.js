@@ -16,7 +16,7 @@ const Pricing = () => {
     })
     return (
         <section className="price-container" id="prices">
-            <div className="container">
+            <div className="container ">
                 <h3 className="mb-2 text-center font-weight-bold price-section-title">Pick the best plan for you</h3>
                 <div className="mb-5 text-center section-intro">Got you covered for all your needs</div>
 
