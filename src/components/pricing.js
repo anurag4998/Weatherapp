@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FiArrowRightCircle } from "react-icons/fi";
 import { Button } from 'reactstrap';
-import Fade from 'react-reveal/Fade';
 
 import Pulse from 'react-reveal/Pulse';
 
