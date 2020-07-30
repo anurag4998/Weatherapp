@@ -61,7 +61,7 @@ const Pricing = () => {
                             <div className="Pricing-title">
                                 <h4>Professional</h4>
                                 <p className="plan-price">69$ <span>/ month </span> </p>
-                                <Pulse delay={2000}> <Button href="#">SIGN UP</Button></Pulse>
+                                <Pulse delay={1700}> <Button href="#">SIGN UP</Button></Pulse>
 
                             </div>
                             <div className="Pricing-content">
