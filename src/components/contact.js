@@ -7,7 +7,7 @@ const Contact = () =>
     (
         <section className="contact-section" id='contact'>
             <h3 className="mb-2 text-center font-weight-bold">Contact Us</h3>
-            <div className="mb-5 text-center contact-section-intro">Get in touch if you have any questions or queries</div>
+            <div className="mb-5 text-center contact-section-intro p-1">Get in touch if you have any questions or queries</div>
 
             <div className="container">
                 <Fade left>
