@@ -4,6 +4,7 @@ import Features from './components/featuresection'
 import Pricing from './components/pricing'
 import Demo from './components/demo'
 import Contact from './components/contact'
+import Footernew from './components/footer'
 
 import './App.css';
 
@@ -25,6 +26,7 @@ class App extends React.Component {
         <Demo />
         <Pricing />
         <Contact />
+        <Footernew />
       </div>
     )
   }

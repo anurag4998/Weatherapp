@@ -141,7 +141,7 @@ text-decoration: none;
   font-family: poppins;
 
 }
-.section-intro
+.section-intro,.contact-section-intro
 {
   color: #555;
   font-family: poppins;
@@ -266,11 +266,12 @@ text-decoration: none;
 display: flex;
 justify-content: center; 
 align-items: center; 
+padding: 20px;
 }
 .more-features h6,.more-features-icons
 {
   font-size: 80%;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   color: blueviolet;
 }
 .more-features-icons
@@ -280,7 +281,11 @@ align-items: center;
 }
 
 /* **********************demo - section****************************** */
-
+.contact-section
+{
+  padding: 60px 0;
+  background-color: #fff;
+}
 .demo-container{
   padding-top: 75px;
   background-image: url(./images/vintage-wallpaper.png);
@@ -289,6 +294,7 @@ align-items: center;
   background-attachment: fixed;
 
 }
+
 .demo-section-title
 {
   color: rgb(253, 247, 234);
@@ -371,7 +377,91 @@ align-items: center;
   padding-top: 1px;
   margin-left: 5px;
 }
+/* *****************************contact Us*********************************** */
 
+.formcontainer
+{
+  box-shadow: 0 0.5rem 1.1rem rgba(0,0,0,0.3);
+}
+.contactusform
+{
+  margin-bottom: 3px;
+
+}
+.form-control
+{
+  padding-top:10px ;
+  padding-bottom:10px ;
+  color: #919aaa;
+  font-size: 75%;
+  border-color: #dee1fc;
+
+}
+.contact-section-title
+{
+  font-size: 150%;
+  font-family: poppins;
+  color: rgba(137, 43, 226, 0.932);
+
+}
+/* *****************************Footer*********************************** */
+.footer {
+  background-color: #000;
+  width: 100vw;
+}
+.facebook,.git,.google
+{
+  font-size: 150%;
+  margin-right: 20px;
+}
+.twitter
+{
+  font-size: 180%;
+  padding-top: 4px;
+  text-align: left;
+}
+.facebook
+{
+  color: #4267B2;
+}
+.git
+{
+  color:#f4cbb2
+}
+.google
+{
+  color:#db4b39;
+  margin-right: 15px;
+
+}
+.twitter
+{
+  color:#1da1f2;
+}
+
+.copyrightrow
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright
+{
+  color:rgba(221, 221, 221, 0.61);
+  margin-right: 10px;
+}
+.companyfooter h6
+{
+  color:rgba(255, 255, 255, 0.685)
+}
+.copyrightrow h6
+{
+  margin-bottom: 0;
+  font-size:70%;
+  color:rgba(221, 221, 221, 0.61);
+  font-weight:200;
+}
 /* *****************************Media queries*********************************** */
 
 @media only screen and (max-width :768px)
