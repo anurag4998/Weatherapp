@@ -119,7 +119,7 @@ const Pricing = () => {
                 </Fade>
 
             </div>
-        </section >
+        </section>
     )
 }
 

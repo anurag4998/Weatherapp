@@ -4,7 +4,7 @@ import { AiFillTwitterCircle, AiOutlineCopyright } from "react-icons/ai";
 
 const Footernew = () => (
     <div className="Footer">
-        <div classname="container">
+        <div className="container">
 
             <div className="row mb-3">
                 <div className="col-12 align-items-center">

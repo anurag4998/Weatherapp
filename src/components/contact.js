@@ -16,7 +16,7 @@ const Contact = () =>
 
                         <FormGroup row className="contactusform">
                             <Col sm={12} md={6}>
-                                <input type="text" className="form-control mb-2" placeholder="Name" minlength="2" required="" />
+                                <input type="text" className="form-control mb-2" placeholder="Name" minLength="2" required="" />
                             </Col>
                             <Col sm={12} md={6}>
 
