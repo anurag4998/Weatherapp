@@ -405,9 +405,9 @@ align-items: center;
 
 }
 /* *****************************Footer*********************************** */
-.footer {
+.Footer {
   background-color: #000;
-  width: 100vw;
+  overflow: hidden;
 }
 .facebook,.git,.google
 {

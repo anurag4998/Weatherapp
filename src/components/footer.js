@@ -3,7 +3,7 @@ import { FaFacebook, FaGithub, FaGooglePlus } from "react-icons/fa";
 import { AiFillTwitterCircle, AiOutlineCopyright } from "react-icons/ai";
 
 const Footernew = () => (
-    <div className="footer" >
+    <div className="Footer">
         <div classname="container">
 
             <div className="row mb-3">
