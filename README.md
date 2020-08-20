@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Design preview](./design/design-preview.PNG)
+![Design preview](./design/design-preview.png)
 
 ## How to use
 
